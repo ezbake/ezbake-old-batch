@@ -37,6 +37,20 @@ echo "Directory base set to $DIR_BASE"
 echo "Version $VERSION"
 
 hadoop jar $JOB_JAR com._42six.amino.api.framework.FrameworkDriver -d $DIR_BASE/config -c ./NumbersJob.xml &&
+#   Copyright (C) 2013-2014 Computer Sciences Corporation
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+
 hadoop jar $BITMAP_JAR ezbake.amino.job.bitmap.EzDatabasePrepJob -d $DIR_BASE/config &&
 hadoop jar $BITMAP_JAR ezbake.amino.job.bitmap.EzByBucketJob  -d $DIR_BASE/config &&
 hadoop jar $BITMAP_JAR ezbake.amino.job.bitmap.EzBitLookupJob  -d $DIR_BASE/config &&
