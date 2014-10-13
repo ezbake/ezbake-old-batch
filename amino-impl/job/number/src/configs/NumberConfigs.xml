@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<configuration>
+    <property>
+        <name>warehausDataLoader.dataType</name>
+        <!-- Can be one of RAW, PARSED. Not needed if indexType TEMPORAL -->
+        <value>RAW</value>
+    </property>
+    <property>
+        <!-- The URI of the data to fetch -->
+        <name>warehausDataLoader.datasource.uri</name>
+        <value>TESTING://numbers</value>
+    </property>
+</configuration>
+

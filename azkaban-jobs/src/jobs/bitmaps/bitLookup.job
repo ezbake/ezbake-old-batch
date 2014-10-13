@@ -1,0 +1,7 @@
+type=hadoopJava
+dependencies=byBucket
+BitmapJob.class=com._42six.amino.bitmap.BitLookupJob
+
+job.class=${shared.job.class}
+main.args=${shared.main.args}
+classpath=${shared.classpath}

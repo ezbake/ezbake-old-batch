@@ -1,0 +1,4 @@
+type=hadoopJava
+classpath=./lib/*
+job.class=ezbake.amino.api.EzFrameworkDriver
+main.args=-d /ezbake/amino/config -c ./NumberJob.xml

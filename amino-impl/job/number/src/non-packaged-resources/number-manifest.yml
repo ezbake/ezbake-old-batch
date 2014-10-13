@@ -1,0 +1,8 @@
+Application:
+  name: Batch_Numbers
+
+  Services:
+    -
+      type: Batch
+      job_name: numbersJob
+      repeat: 24h

@@ -1,0 +1,10 @@
+Application:
+  name: Batch_Cleanup
+  security_id: foobarSecurityId
+
+  Services:
+    -
+      type: Batch
+      job_name: HDFScleaner
+      repeat:     1w
+      start_time: 09,00,am,utc

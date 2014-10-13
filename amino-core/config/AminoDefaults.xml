@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+
+<configuration>
+    <!-- General Amino config values -->
+    <property>
+        <name>amino.bitmap.num-hashes</name>
+        <value>2</value>
+    </property>
+    <property>
+        <name>amino.bigtable.number.of.shards</name>
+        <value>10</value>
+    </property>
+
+    <!-- Amino Accumulo configuration parameters -->
+
+    <property>
+        <name>bigtable.maxMemory</name>
+        <value>1024</value>
+    </property>
+    <property>
+        <name>bigtable.maxLatency</name>
+        <value>0</value>
+    </property>
+    <property>
+        <name>bigtable.maxWriteThreads</name>
+        <value>1</value>
+    </property>
+
+    <!-- The Amino table names -->
+
+    <property>
+        <name>amino.metadataTable</name>
+        <value>amino_metadata</value>
+    </property>
+    <property>
+        <name>amino.hypothesisTable</name>
+        <value>amino_hypothesis</value>
+    </property>
+    <property>
+        <name>amino.bitmap.bucketTable</name>
+        <value>amino_bitmap_byBucket</value>
+    </property>
+    <property>
+        <name>amino.bitmap.indexTable</name>
+        <value>amino_bitmap_bitLookup</value>
+    </property>
+    <property>
+        <name>amino.bitmap.featureLookupTable</name>
+        <value>amino_feature_lookup</value>
+    </property>
+    <property>
+        <name>amino.queryResultTable</name>
+        <value>amino_query_result</value>
+    </property>
+    <property>
+        <name>amino.groupMetadataTable</name>
+        <value>amino_group_metadata</value>
+    </property>
+    <property>
+        <name>amino.groupMembershipTable</name>
+        <value>amino_group_membership</value>
+    </property>
+    <property>
+        <name>amino.groupHypothesisLUT</name>
+        <value>amino_group_hypothesis_lookup</value>
+    </property>
+
+</configuration>

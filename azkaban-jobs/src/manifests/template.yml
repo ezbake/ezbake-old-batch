@@ -1,0 +1,12 @@
+Application:
+  name: // name of the application (required for non-common-core applications)
+  security_id: foobarSecurityId
+
+  Services:
+    -
+      type: Batch
+      job_name: internalJobTest
+
+      start_date: // Optional - if not provided then defaults to now, else of the format MM/DD/YYYY
+      start_time: // Optional - if not provided then defaults to now, else of the format of 12,00,pm,utc
+      repeat:     // Optional - if not provided doesn't repeat, else in the form of <int>[Mwdhms]

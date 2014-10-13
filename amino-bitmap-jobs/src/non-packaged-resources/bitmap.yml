@@ -1,0 +1,10 @@
+Application:
+  name: Batch_Bitmaps
+  security_id: foobarSecurityId
+
+  Services:
+    -
+      type: Batch
+      flow_name: featureMetadata
+      job_name: bitmapProcessing
+      repeat:     12h

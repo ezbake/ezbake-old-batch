@@ -1,0 +1,8 @@
+Application:
+  name: BatchTest
+  security_id: foobarSecurityId
+
+  Services:
+    -
+      type: Batch
+      job_name: numbersJob

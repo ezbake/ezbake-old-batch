@@ -1,0 +1,7 @@
+type=hadoopJava
+dependencies=stats
+BitmapJob.class=com._42six.amino.bitmap.HypothesisJob
+
+job.class=${shared.job.class}
+main.args=${shared.main.args}
+classpath=${shared.classpath}

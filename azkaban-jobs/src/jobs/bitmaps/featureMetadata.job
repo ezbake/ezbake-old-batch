@@ -1,0 +1,7 @@
+type=hadoopJava
+dependencies=reverseFeatureLookup
+BitmapJob.class=com._42six.amino.bitmap.FeatureMetadataJob
+
+job.class=${shared.job.class}
+main.args=${shared.main.args}
+classpath=${shared.classpath}

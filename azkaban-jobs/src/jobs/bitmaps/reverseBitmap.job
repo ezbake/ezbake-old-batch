@@ -1,0 +1,7 @@
+type=hadoopJava
+dependencies=hypothesis
+BitmapJob.class=com._42six.amino.bitmap.reverse.ReverseBitmapJob
+
+job.class=${shared.job.class}
+main.args=${shared.main.args}
+classpath=${shared.classpath}

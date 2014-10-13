@@ -1,0 +1,11 @@
+type=hadoopJava
+classpath=./lib/*
+job.class=ezbake.azkaban.job.HdfsCleaner
+
+# Anything older than 24 hours ago.
+#ageoff.period=86400000
+#ageoff.lastN=0
+
+ageoff.absolute=1205352899720
+cleanout.analytics=true
+cleanout.bitmaps=true

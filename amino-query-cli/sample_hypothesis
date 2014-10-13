@@ -1,0 +1,14 @@
+justification=Hello World
+name=Even Numbers
+users.edit.1=jbruner
+users.edit.2=jstapleton
+users.view.1=jbruner
+users.view.2=jstapleton
+users.view.3=rseng
+visibility=U
+visibility.bt=U
+bucketId=633526211
+datasourceId=0
+features.1.type=NOMINAL
+features.1.metadataId=633526211
+features.1.value=even
