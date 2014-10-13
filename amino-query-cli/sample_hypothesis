@@ -1,10 +1,10 @@
 justification=Hello World
 name=Even Numbers
-users.edit.1=jbruner
-users.edit.2=jstapleton
-users.view.1=jbruner
-users.view.2=jstapleton
-users.view.3=rseng
+users.edit.1=bob
+users.edit.2=sally
+users.view.1=bob
+users.view.2=sally
+users.view.3=alice
 visibility=U
 visibility.bt=U
 bucketId=633526211
