@@ -89,8 +89,8 @@ public class Main implements Callable<Integer>, AutoCloseable {
         try {
             EzConfiguration conf = new EzConfiguration();
             if ( useMockSecurity ) {
-                conf.getProperties().setProperty(EzbakeSecurityClient.USE_MOCK_KEY, String.valueOf(true));
-                conf.getProperties().setProperty(EzbakeSecurityClient.MOCK_USER_KEY, userDn);
+                conf.getProperties().setProperty(EzBakeSecurityClientConfigurationHelper.USE_MOCK_KEY, String.valueOf(true));
+                conf.getProperties().setProperty(EzBakeSecurityClientConfigurationHelper.MOCK_USER_KEY, userDn);
             }
             String appName = conf.getProperties().getProperty(EzBakePropertyConstants.EZBAKE_APPLICATION_NAME);
             if (Strings.isNullOrEmpty(appName) ) {
